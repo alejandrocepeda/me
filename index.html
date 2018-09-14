@@ -1,12 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-	<title>ALejandro</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Aqui encontrarán muestra de mi trabajo, hablidades de desarrollo web y demas locuras">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="../static/css/normalize.css">
+	<link rel="stylesheet" href="../static/css/style.css">
+	
+	<title>Portafolio</title>
 </head>
 <body>
-
-	
-
-<h1>ALejandro</h1>
+	<header class="Header">
+		<nav class="MainMenu">
+		<ul class="MainMenu-list">
+			<li class="MainMenu-item"><a class="MainMenu-link"href="#">Yo</a></li>
+			<li class="MainMenu-item"><a class="MainMenu-link"href="#">perfil</a></li>
+			<li class="MainMenu-item"><a class="MainMenu-link"href="#">Trabajo</a></li>
+			<li class="MainMenu-item"><a class="MainMenu-link"href="#">Contacto</a></li>
+			<li class="MainMenu-item"><a class="MainMenu-link"href="#">Hobbies</a></li>
+		</ul>
+		</nav>
+		<figure class="Header-imageContainer">
+			<img src="../static/images/avatar.jpg" alt="Imagen Personal" class="Header-image">
+			<figcaption class="Header-imageDescription"><a href="http://twitter.com/elSharmaz/" target="_blank" class="Header-link">@elSharmaz</a></figcaption>
+			<p class="Header-name">Ivan Robles</p>
+		</figure>
+	</header>
+	<section class="Profile">
+		<h2 class="Profile-title u-title">Mi Perfil</h2>
+		<p class="Profile-description">No existe la casualidad. Si llegaste aqui puedes ver mi portafolio, contactame ;)</p>
+		<a class="Profile-link"href="#Facebook" target="_blank">Ivan Robles</a>
+		<a class="Profile-link"href="#Twitter" target="_blank">Ivan Robles</a>
+		<a class="Profile-link"href="#Github" target="_blank">Ivan Robles</a>
+	</section>
+	<section class="Work">
+		<h2 class="u-title">Mi Trabajo</h2>
+		<article class="Work-item">
+			<figure class="Work-imageContainer">
+				<img class="Work-image" src="../static/images/proyecto.jpg" alt="Sitio web">
+				<figcaption class="Work-description">Website de Angemi repostería y café</figcaption>
+			</figure>
+		</article>
+		<article class="Work-item">
+			<figure class="Work-imageContainer">
+				<img class="Work-image" src="../static/images/proyecto.jpg" alt="Sitio web">
+				<figcaption class="Work-description">Website de Angemi repostería y café</figcaption>
+			</figure>
+		</article>
+		<article class="Work-item">
+			<figure class="Work-imageContainer">
+				<img class="Work-image" src="../static/images/proyecto.jpg" alt="Sitio web">
+				<figcaption class="Work-description">Website de Angemi repostería y café</figcaption>
+			</figure>
+		</article>
+		<article class="Work-item">
+			<figure class="Work-imageContainer">
+				<img class="Work-image" src="../static/images/proyecto.jpg" alt="Sitio web">
+				<figcaption class="Work-description">Website de Angemi repostería y café</figcaption>
+			</figure>
+		</article> 
+	</section>
+	<footer class="Footer">
+		<div class="Footer-left">
+		<h3 class="Footer-title">Contacto</h3>
+		<p class="Footer-description">Si tienes alguna duda, sugerencia o quieres trabajar conmigo ponte en contacto con este formulario</p>
+		</div>
+		<form class="Footer-form">
+			<input class="Footer-formInput" type="text" placeholder="Nombre">
+			<input class="Footer-formInput" type="email" placeholder="Email">
+			<textarea class="Footer-textArea" name="" id="" placeholder="Motivo"></textarea>
+			<button class="Footer-button" type="submit">Contactame</button>
+		</form>
+	</footer>
 </body>
 </html>
