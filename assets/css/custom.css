@@ -1,5 +1,5 @@
 .cover{
-	background-image: url(assets/images/cover.jpg);
+	background-image: url(../images/cover.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
