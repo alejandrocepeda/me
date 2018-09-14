@@ -1,0 +1,139 @@
+.u-title{
+	color: #00CCFF;
+	border-bottom: 2px dashed #00CCFF;
+	text-align: center;
+	font-weight: normal;
+	padding-bottom: 0.5rem;
+}
+
+.Header{
+	margin-top: 3rem;
+	background-image: url('../images/portada.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	padding: 1.5rem 1.2rem;
+
+}
+	.Header-imageContainer{
+		margin: 0;
+	}
+
+		.Header-image{
+			width: 150px;
+			border: 5px solid gray;
+			border-radius: 50%;
+		}
+
+		.Header-name, .Header-link {
+			color: white;
+		}
+
+		.Header-link{
+			font-size: 2.2rem;
+			font-weight: bold;
+			text-decoration: none;
+			
+		}
+
+		.Header-name{
+			margin: 0;
+		}
+
+.MainMenu{
+	background: #1E1E1E;
+	text-align: center;
+	height: 3rem;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+	.MainMenu-list{
+		margin: 0;
+		padding: 0;
+	}
+		.MainMenu-item{
+			display: inline-block;
+			padding-right: 1rem;
+		}
+			.MainMenu-link{
+				color: #00DBFF;
+				text-decoration: none;
+				line-height: 3rem;
+			}
+
+.Profile{
+	text-align: center;
+}
+	.Profile-link{
+		background: orange;
+		color: white;
+		text-decoration: none;
+		padding: 0.5rem 0.5rem;
+		border-radius: 12rem;
+		margin-right: 0.5rem;
+	}
+
+.Work{
+	margin-top: 2rem;
+	text-align: center;
+}
+	.Work-imageContainer{
+		margin: 0;
+	}
+	.Work-item{
+		display: inline-block;
+		margin: 1rem 0.5rem;
+	}
+	.Work-description{
+		font-size: 1.1rem;
+		font-style: italic;
+		color: #515151;
+	}
+
+.Footer{
+	background-image: url('../images/footer.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+}
+	.Footer-left{
+		display: inline-block;
+		width: 70%;
+		text-align: center;
+		vertical-align: top;
+		margin: 4rem 0 1rem 0;
+	}
+	.Footer-title{
+		color: white;
+	}
+
+	.Footer-form{
+		text-align: center;
+		display: inline-block;
+		margin: 1rem;
+	}
+
+	.Footer-formInput, .Footer-textArea{
+		background: white;
+		border:none;
+		border-radius: 2rem;
+		display: block;
+		padding: 1rem;
+		margin:1rem auto;
+
+	}
+	.Footer-textArea{
+		resize:none;
+	}
+	.Footer-button{
+		background: orange;
+		color: white;
+		border-radius: 1rem;
+		padding: 1rem;
+		border:none;
+		margin-bottom: 1rem;
+	}
