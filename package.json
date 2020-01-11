@@ -1,0 +1,23 @@
+{
+  "name": "me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejandrocepeda/me.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alejandrocepeda/me/issues"
+  },
+  "homepage": "https://github.com/alejandrocepeda/me#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
